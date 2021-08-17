@@ -708,7 +708,7 @@ html {
   .navbar-container {
     max-width: 100%;
     /* margin: var(--container-margin); */
-    background-color: yellow;
+
     height: 100%;
     display: flex;
     justify-content: space-around;
