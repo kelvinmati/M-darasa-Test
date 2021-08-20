@@ -11,7 +11,6 @@ let translate = 0;
 let currentIndex = 0;
 const showNext = () => {
   if (currentIndex >= cardsLength - 1) {
-    // updater();
     currentIndex = 0;
   } else {
     currentIndex++;
@@ -36,33 +35,6 @@ const showPrevious = () => {
   }
   updater();
 };
-// setInterval(showNext, 3000);
-// setInterval(showPrevious, 3000);
-// SLIDER
-// const nextBtn = document.getElementById("right");
-// const prevBtn = document.getElementById("left");
-// const slideImages = document.querySelectorAll(".slider-image");
-// const sliderContainer = document.querySelector(".slider-container");
-// const slideImagesLength = slideImages.length;
-// let slideWidth = slideImages[0].clientWidth;
-// console.log("slideWidth");
-// let currentSlide = 0;
-// function updateSlide() {
-//   slideImages.forEach((img, i) => {
-//     img.style.left = i * 100 + "%";
-//   });
-//   slideImages[0].classList.add("active");
-// }
-// updateSlide();
-
-// nextBtn.addEventListener("click", () => {
-//   currentSlide++;
-//   goToSlide(currentSlide);
-// });
-// function goToSlide(slideNum) {
-//   sliderContainer.style.transform =
-//     "translateX(- " + slideWidth * slideNum + "px)";
-// }
 
 // TYPING EFFECT
 const typingDiv = document.querySelector(".typing");
